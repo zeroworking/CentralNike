@@ -65,4 +65,9 @@ Almacena las imágenes de los productos y del sitio.
 
 
 Se agrega un video de la navegabilidad del sitio
+
+Video Navegabilidad
+
+https://drive.google.com/file/d/1_BuwEYK-KNxXWHX7s9p2vjdq0VPe57oR/view?usp=drive_link
+
 # CentralNike
