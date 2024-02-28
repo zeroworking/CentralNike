@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+CODERHOUSE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Curso		    : React.
 
-## Available Scripts
+Comisión	    : 49960.
 
-In the project directory, you can run:
+Alumno		    : Jorge Jara.
 
-### `npm start`
+Entrega		    : Entrega Proyecto Final.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Proyecto	    : CentralNike.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Version		    : 1.0.0.
 
-### `npm test`
+Github		    : https://github.com/zeroworking/CentralNike/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Consideraciones :
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+El proyecto se inicia con npm start y se levanta en el siguiente endpoint http://localhost:3000
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Incluye 12 componentes organizados de la siguiente manera:
 
-### `npm run eject`
+Un contexto que considera 3 componentes.
+01) Componente CartWidget
+02) Compornente Cart
+03) Componente Checkout
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Un Navbar.
+04) Componente Nabvar
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Un Footer.
+05) Componente Footer
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Un apartado de Somos.
+06) Componente Somos
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Listado de productos.
+07) Componente ItemListContainer
+        > 08) Componente ItemList
+            > 09) Componente Item
 
-## Learn More
+Detalle del Producto.
+10) Componente ItemDetailContainer
+        > 11) Componente ItemDetail
+            > 12) Componente Count
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+Incluye 2 librerias no consideradas en clase
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+01) react-hook-form para el manejo eficiente y simplificado de los estados del formulario.
+02) sweetalert2 para validar la confirmación de correo en el formulario de finalización de la compra.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+El proyecto considera persistencia de datos del carrito con LocalStorage.
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Firebase
 
-### Advanced Configuration
+Almacena información de los productos.
+Almacena información de los pedidos.
+Almacena las imágenes de los productos y del sitio.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Se agrega un video de la navegabilidad del sitio
+# CentralNike
