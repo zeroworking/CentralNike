@@ -1,0 +1,41 @@
+.contenedor {
+    max-width: 1140px;
+    padding-inline: 1.5rem;
+    margin: 0 auto;
+}
+
+.titulo {
+    margin-top: 2rem;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: flex-start;
+}
+
+.formulario input {
+    padding: .5rem;
+    width: 18rem;
+    border-radius: .5rem;
+    border: 2px solid black;
+}
+
+.formulario input:focus {
+    background-color:bisque;
+    border: 2px solid black;
+}
+
+.btn-finalizar-compra {
+    width: auto;
+    height: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: .5rem;
+} 
+ 
+.btn-finalizar-compra:hover {
+    background-color: black;
+    color: white;
+}

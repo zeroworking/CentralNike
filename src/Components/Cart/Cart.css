@@ -1,0 +1,41 @@
+.contenedor {
+    max-width: 1140px;
+    padding-inline: 1.5rem;
+    margin: 0 auto;
+}
+
+.titulo {
+    margin-top: 2rem;
+}
+
+.btn-vaciar-el-carro {
+    width: auto;
+    height: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.btn-vaciar-carrito:hover, .btn-enviar:hover {
+    background-color: black;
+    color: white;
+}
+
+.btn-realizar-compra {    
+    background-color: rgb(13, 79, 201);
+    width: auto;
+    height: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.btn-realizar-compra:hover {
+    background-color: black;
+    color: white;
+}
+
+a {
+    text-decoration: none; 
+    color:white;   
+}
